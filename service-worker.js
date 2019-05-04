@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Open-Data-Viewer/precache-manifest.54df169ef2fa3a26faa1046fea7ebcd8.js"
+  "/local-services-map/precache-manifest.58642001728f02b6d924e0d432713df3.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Open-Data-Viewer/index.html", {
+workbox.routing.registerNavigationRoute("/local-services-map/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
