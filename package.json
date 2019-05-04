@@ -35,7 +35,7 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "homepage": "https://bathhacked.github.io/Open-Data-Viewer",
+  "homepage": "https://bathhacked.github.io/local-services-map",
   "scripts":{
     "predeploy": "react-scripts build",
     "deploy": "gh-pages -d build"
