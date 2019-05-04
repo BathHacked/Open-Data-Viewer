@@ -5,6 +5,7 @@
   "dependencies": {
     "@derhuerst/query-overpass": "^1.0.1",
     "fetch-ponyfill": "^6.0.2",
+    "gh-pages": "^2.0.1",
     "leaflet": "^1.4.0",
     "leaflet-geosearch": "^2.7.0",
     "leaflet.awesome-markers": "^2.0.5",
@@ -33,5 +34,10 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "homepage": "https://bathhacked.github.io/Open-Data-Viewer",
+  "scripts":{
+    "predeploy": "react-scripts build",
+    "deploy": "gh-pages -d build"
+  }
 }
